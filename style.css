@@ -88,7 +88,7 @@ nav ul li{
     height: 50px;
     display: flex;
     background-color: white;
-    
+    width: auto;
     color: black;
     margin: 12px 0;
     justify-content: space-between;
@@ -128,9 +128,9 @@ nav ul li{
     .songInfo{
         margin: -15px;
     }
-    .container{
+    /* .container{
         width: 50%;
-    }
+    } */
     
   }
 
@@ -139,11 +139,18 @@ nav ul li{
 
     body {
         background-color: rgb(32, 8, 56);
+        
       }
+     .container{
+        background: none;
+     }
       .songInfo{
           margin: -28px;
       }
+      
       nav{
         width: auto;
     }
     }
+
+   
