@@ -131,6 +131,7 @@ nav ul li{
     .container{
         width: 50%;
     }
+    
   }
 
 @media only screen and (max-width:800px)
@@ -142,4 +143,7 @@ nav ul li{
       .songInfo{
           margin: -28px;
       }
+      nav{
+        width: auto;
+    }
     }
