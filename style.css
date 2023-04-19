@@ -47,7 +47,11 @@ nav ul li{
    width: 70%;
    border-radius: 12px;
    padding: 34px;
+    width: 100%;
+    height: auto;
+  background-repeat: no-repeat;
    background-image: url('bg.jpg');
+  
 }
 
 .bottom{
